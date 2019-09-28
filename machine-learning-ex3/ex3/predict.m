@@ -14,6 +14,7 @@ z1= sigmoid (X*Theta1');
 z1= [ones(m,1) z1];
 z2=sigmoid (z1*Theta2');
 [t,p]= max(z2,[],2);
+t1= max (z1, 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Complete the following code to make predictions using
 %               your learned neural network. You should set p to a 
